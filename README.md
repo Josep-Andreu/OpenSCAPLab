@@ -90,7 +90,7 @@ Con lo que tendremos un `tailoring file` con estas 4 reglas definidas:
 
 A continuación, vamos a `File -> Save Customization Only` y le damos el nombre de `lab-tailoring.xml` y lo guardamos dentro de `/root`.
 
-Con este `tailoring file`, podemos ejecutar un nuevo scan que sólo compruebe estas 4 reglas que hemos añadido al perfil vacío. Para ello, primero necesitamos obtener el nombre del perfil ya que lo hemos customizado:
+Con este `tailoring file`, podemos ejecutar un nuevo scan que solo compruebe estas 4 reglas que hemos añadido al perfil vacío. Para ello, primero necesitamos obtener el nombre del perfil, ya que lo hemos customizado:
 
 ```
 [root@client ~]# oscap info lab-tailoring.xml 
@@ -139,7 +139,7 @@ Con el fichero de resultados del anterior apartado `/root/lab-results-tailoring.
 [root@client ~]# oscap xccdf generate fix --profile xccdf_org.ssgproject.content_profile_ccn_advanced_customized --tailoring-file lab-tailoring.xml --fix-type ansible --result-id "" /root/lab-results-tailoring.xml  > fix.yml
 ```
 
-Necesitamos crear un inventario ya que el `playbook` tiene la sección `hosts: all` para limitarlo hemos de añadir lo siguiente `echo client > inventory`, y con esto ya podemos ejecutar el playbook generado:
+Necesitamos crear un inventario, ya que el `playbook` tiene la sección `hosts: all` para limitarlo hemos de añadir lo siguiente `echo client > inventory`, y con esto ya podemos ejecutar el playbook generado:
 
 ```
 [root@client ~]# ansible-playbook -i inventory fix.yml
