@@ -2,7 +2,7 @@
 
 ## Resumen
 
-El objetivo de este lab es evaluar y comprobar políticas de Openscap usando un perfil estándar de seguridad. Para ello comprobaremos si nuestros servidores son compliance usando el perfil de Centro Criptológico Nacional (CCN) para RHEL 9. Después aplicaremos una customización sencilla partiendo de ese perfil, comprobaremos parámetros de password de los usuarios, instalaremos software y chequearemos que un servicio está arrancado. Finalmente, generaremos una remediación con Ansible para aquellos checks de compliance que no cumplimos y la aplicaremos en los servidores. 
+El objetivo de este lab es evaluar y comprobar políticas de Openscap usando un perfil estándar de seguridad. Para ello comprobaremos si nuestros servidores son compliance usando el perfil de Centro Criptológico Nacional (CCN) para RHEL 9. Después aplicaremos una customización sencilla partiendo de ese perfil, comprobaremos parámetros de password de los usuarios, instalaremos software y chequearemos que un servicio está habilitado. Finalmente, generaremos una remediación con Ansible para aquellos checks de compliance que no cumplimos y la aplicaremos en los servidores. 
 
 ## Instalación de software
 
