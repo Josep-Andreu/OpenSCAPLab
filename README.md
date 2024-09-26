@@ -6,7 +6,7 @@ El objetivo de este lab es evaluar y comprobar políticas de Openscap usando un 
 
 ## Instalación de software
 
-Todo el lab se ejecutará en el mismo servidor, por ello vamos a instalar toda la paquetería en el mismo sistema (la imagen que hemos instalado ya tiene los paquetes necesarios por lo que no hace falta este paso):
+Todo el lab se ejecutará en el mismo servidor, por ello vamos a instalar toda la paquetería en el mismo sistema (la imagen que hemos instalado ya tiene los paquetes necesarios por lo que no hace falta este paso, lo hemos añadido para tener toda la información completa):
 
 ```
 [root@client ~]# dnf install -y openscap-scanner scap-security-guide scap-workbench
