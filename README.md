@@ -68,7 +68,7 @@ Para customizar un perfil de compliance hemos de crear un `tailoring file`, para
 [root@client ~]# scap-workbench
 ```
 
-El programa carga los `s` que estén instalados en el servidor:
+El programa carga los `data streams` que estén instalados en el servidor:
 
 ![image](https://github.com/user-attachments/assets/4ba4f310-171d-4471-bf14-bdf204ae759b)
 
