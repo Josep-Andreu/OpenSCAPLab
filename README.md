@@ -16,7 +16,7 @@ El paquete `openscap-scanner` instala la herramienta `oscap` desde la cual podre
 
 El paquete `scap-security-guide` instala los data streams necesarios en la ruta `/usr/share/xml/scap/ssg/content/`. Este data stream contiene la información de todos los perfiles de SCAP con sus reglas asociadas para evaluar el compliance de un scan o también para generar las remediaciones. Esta información está en el fichero `XCCDF` (Extensible Configuration Checklist Description File) `ssg-rhel9-xccdf.xml`.
 
-Por último el paquete `scap-workbench` nos servirá para generar perfiles custom de compliance, como veremos más adelante. Solamente añadir que también permite evaluar el compliance en local o en sistemas remotos a través de `SSH`.
+Por último el paquete `scap-workbench` nos servirá para generar perfiles custom de compliance, como veremos más adelante. Solamente añadir que también permite evaluar el compliance en local y en sistemas remotos a través de `SSH`.
 
 ## Evaluar el compliance
 
